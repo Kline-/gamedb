@@ -62,5 +62,13 @@
             "invert_x": "false",
             "invert_y": "true"
         }
+    },
+    {
+        "title": "Slime Rancher",
+        "platform": "PS4",
+        "options": {
+            "invert_x": "false",
+            "invert_y": "true"
+        }
     }
 ]
