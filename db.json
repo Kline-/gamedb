@@ -46,5 +46,13 @@
             "invert_x": "false",
             "invert_y": "true"
         }
+    },
+    {
+        "title": "Star Wars Jedi: Fallen Order",
+        "platform": "PS5",
+        "options": {
+            "invert_x": "true",
+            "invert_y": "true"
+        }
     }
 ]
