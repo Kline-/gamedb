@@ -1,0 +1,34 @@
+[
+    {
+        "title": "Final Fantasy XIV",
+        "platform": "PS5",
+        "options": {
+            "invert_x": "true",
+            "invert_y": "true"
+        }
+    },
+    {
+        "title": "Powerwash Simulator",
+        "platform": "PS4",
+        "options": {
+            "invert_x": "false",
+            "invert_y": "true"
+        }
+    },
+    {
+        "title": "World of Assassination",
+        "platform": "PS5",
+        "options": {
+            "invert_x": "true",
+            "invert_y": "true"
+        }
+    },
+    {
+        "title": "Grand Theft Auto V",
+        "platform": "PS5",
+        "options": {
+            "invert_x": "false",
+            "invert_y": "true"
+        }
+    }
+]
