@@ -54,5 +54,13 @@
             "invert_x": "true",
             "invert_y": "true"
         }
+    },
+    {
+        "title": "Middle-earth: Shadow of Mordor",
+        "platform": "PS4",
+        "options": {
+            "invert_x": "false",
+            "invert_y": "true"
+        }
     }
 ]
