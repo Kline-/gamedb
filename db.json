@@ -16,7 +16,7 @@
         }
     },
     {
-        "title": "World of Assassination",
+        "title": "HITMAN World of Assassination",
         "platform": "PS5",
         "options": {
             "invert_x": "true",
@@ -25,6 +25,22 @@
     },
     {
         "title": "Grand Theft Auto V",
+        "platform": "PS5",
+        "options": {
+            "invert_x": "false",
+            "invert_y": "true"
+        }
+    },
+    {
+        "title": "Doom 2016",
+        "platform": "PS4",
+        "options": {
+            "invert_x": "false",
+            "invert_y": "true"
+        }
+    },
+    {
+        "title": "Doom Eternal",
         "platform": "PS5",
         "options": {
             "invert_x": "false",
