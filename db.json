@@ -1,74 +1,14 @@
-[
-    {
-        "title": "Final Fantasy XIV",
-        "platform": "PS5",
-        "options": {
-            "invert_x": "true",
-            "invert_y": "true"
-        }
-    },
-    {
-        "title": "Powerwash Simulator",
-        "platform": "PS4",
-        "options": {
-            "invert_x": "false",
-            "invert_y": "true"
-        }
-    },
-    {
-        "title": "HITMAN World of Assassination",
-        "platform": "PS5",
-        "options": {
-            "invert_x": "true",
-            "invert_y": "true"
-        }
-    },
-    {
-        "title": "Grand Theft Auto V",
-        "platform": "PS5",
-        "options": {
-            "invert_x": "false",
-            "invert_y": "true"
-        }
-    },
-    {
-        "title": "Doom 2016",
-        "platform": "PS4",
-        "options": {
-            "invert_x": "false",
-            "invert_y": "true"
-        }
-    },
-    {
-        "title": "Doom Eternal",
-        "platform": "PS5",
-        "options": {
-            "invert_x": "false",
-            "invert_y": "true"
-        }
-    },
-    {
-        "title": "Star Wars Jedi: Fallen Order",
-        "platform": "PS5",
-        "options": {
-            "invert_x": "true",
-            "invert_y": "true"
-        }
-    },
-    {
-        "title": "Middle-earth: Shadow of Mordor",
-        "platform": "PS4",
-        "options": {
-            "invert_x": "false",
-            "invert_y": "true"
-        }
-    },
-    {
-        "title": "Slime Rancher",
-        "platform": "PS4",
-        "options": {
-            "invert_x": "false",
-            "invert_y": "true"
-        }
-    }
-]
+[{"title":"Final Fantasy XIV","platform":"PS5","options":{"invert_x":"true","invert_y":"true"}},
+ {"title":"Powerwash Simulator","platform":"PS4","options":{"invert_x":"false","invert_y":"true"}},
+ {"title":"HITMAN World of Assassination","platform":"PS5","options":{"invert_x":"true","invert_y":"true"}},
+ {"title":"Grand Theft Auto V","platform":"PS5","options":{"invert_x":"false","invert_y":"true"}},
+ {"title":"Doom (2016)","platform":"PS4","options":{"invert_x":"false","invert_y":"true"}},
+ {"title":"Doom Eternal","platform":"PS5","options":{"invert_x":"false","invert_y":"true"}},
+ {"title":"Star Wars Jedi: Fallen Order","platform":"PS5","options":{"invert_x":"true","invert_y":"true"}},
+ {"title":"Middle-earth: Shadow of Mordor","platform":"PS4","options":{"invert_x":"false","invert_y":"true"}},
+ {"title":"Slime Rancher","platform":"PS4","options":{"invert_x":"false","invert_y":"true"}},
+ {"title":"Mass Effect (Legendary Edition)","platform":"PS4","options":{"invert_x":"false","invert_y":"true"}},
+ {"title":"Horizon Zero Dawn","platform":"PS4","options":{"invert_x":"true","invert_y":"true"}},
+ {"title":"Horizon Forbidden West","platform":"PS5","options":{"invert_x":"true","invert_y":"true"}},
+ {"title":"God of War (2018)","platform":"PS4","options":{"invert_x":"true","invert_y":"true"}},
+ {"title":"God of War: Ragnarok","platform":"PS4","options":{"invert_x":"true","invert_y":"true"}}]
