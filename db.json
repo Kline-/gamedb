@@ -15,4 +15,5 @@
  {"title":"Maneater","platform":"PS5","options":{"invert_x":"false","invert_y":"true"}},
  {"title":"Hardspace: Shipbreaker","platform":"PS5","options":{"invert_x":"true","invert_y":"true"}},
  {"title":"Returnal","platform":"PS5","options":{"invert_x":"true","invert_y":"true"}},
- {"title":"Wild Hearts","platform":"PS5","options":{"invert_x":"true","invert_y":"true"}}]
+ {"title":"Wild Hearts","platform":"PS5","options":{"invert_x":"true","invert_y":"true"}},
+ {"title":"Like a Dragon: Ishin!","platform":"PS5","options":{"invert_x":"true","invert_y":"true"}}]
