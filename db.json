@@ -16,4 +16,5 @@
  {"title":"Hardspace: Shipbreaker","platform":"PS5","options":{"invert_x":"true","invert_y":"true"}},
  {"title":"Returnal","platform":"PS5","options":{"invert_x":"true","invert_y":"true"}},
  {"title":"Wild Hearts","platform":"PS5","options":{"invert_x":"true","invert_y":"true"}},
- {"title":"Like a Dragon: Ishin!","platform":"PS5","options":{"invert_x":"true","invert_y":"true"}}]
+ {"title":"Like a Dragon: Ishin!","platform":"PS5","options":{"invert_x":"true","invert_y":"true"}},
+ {"title":"Code Vein","platform":"PS4","options":{"invert_x":"true","invert_y":"true"}}]
