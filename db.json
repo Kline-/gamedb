@@ -25,4 +25,5 @@
  {"title":"Immortals Fenyx Rising","platform":"PS5","options":{"invert_x":"true","invert_y":"true"}},
  {"title":"Dragon Quest Heroes: The World Tree's Woe and the Blight Below","platform":"PS4","options":{"invert_x":"true","invert_y":"true"}},
  {"title":"Jurassic World Evolution 2","platform":"PS5","options":{"invert_x":"true","invert_y":"true"}},
- {"title":"Final Fantasy XVI","platform":"PS5","options":{"invert_x":"true","invert_y":"true"}}]
+ {"title":"Final Fantasy XVI","platform":"PS5","options":{"invert_x":"true","invert_y":"true"}},
+ {"title":"Rebel Galaxy","platform":"PS4","options":{"invert_x":"false","invert_y":"false"}}]
