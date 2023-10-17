@@ -28,4 +28,5 @@
  {"title":"Final Fantasy XVI","platform":"PS5","options":{"invert_x":"true","invert_y":"true"}},
  {"title":"Rebel Galaxy","platform":"PS4","options":{"invert_x":"false","invert_y":"true"}},
  {"title":"Middle-earth: Shadow of War","platform":"PS4","options":{"invert_x":"false","invert_y":"true"}},
- {"title":"Generation Zero","platform":"PS4","options":{"invert_x":"false","invert_y":"true"}}]
+ {"title":"Generation Zero","platform":"PS4","options":{"invert_x":"false","invert_y":"true"}},
+ {"title":"Farming Simulator 22","platform":"PS5","options":{"invert_x":"false","invert_y":"true"}}]
