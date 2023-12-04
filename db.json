@@ -33,4 +33,5 @@
  {"title":"Elite Dangerous","platform":"PS4","options":{"invert_x":"true","invert_y":"true"}},
  {"title":"Weird West","platform":"PS5","options":{"invert_x":"false","invert_y":"true"}},
  {"title":"Gotham Knights","platform":"PS5","options":{"invert_x":"true","invert_y":"true"}},
- {"title":"Robocop: Rogue City","platform":"PS5","options":{"invert_x":"false","invert_y":"true"}}]
+ {"title":"Robocop: Rogue City","platform":"PS5","options":{"invert_x":"false","invert_y":"true"}},
+ {"title":"Cyberpunk 2077","platform":"PS5","options":{"invert_x":"true","invert_y":"true"}}]
