@@ -36,4 +36,5 @@
  {"title":"Robocop: Rogue City","platform":"PS5","options":{"invert_x":"false","invert_y":"true"}},
  {"title":"Cyberpunk 2077","platform":"PS5","options":{"invert_x":"true","invert_y":"true"}},
  {"title":"Evil West","platform":"PS5","options":{"invert_x":"true","invert_y":"true"}},
- {"title":"Helldivers 2","platform":"PS5","options":{"invert_x":"true","invert_y":"true"}}]
+ {"title":"Helldivers 2","platform":"PS5","options":{"invert_x":"true","invert_y":"true"}},
+ {"title":"Steelrising","platform":"PS5","options":{"invert_x":"false","invert_y":"true"}}]
