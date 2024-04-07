@@ -40,4 +40,5 @@
  {"title":"Steelrising","platform":"PS5","options":{"invert_x":"false","invert_y":"true"}},
  {"title":"Final Fantasy VII Remake","platform":"PS5","options":{"invert_x":"true","invert_y":"true"}},
  {"title":"Final Fantasy VII Rebirth","platform":"PS5","options":{"invert_x":"true","invert_y":"true"}},
- {"title":"Dragon's Dogma 2","platform":"PS5","options":{"invert_x":"true","invert_y":"true"}}]
+ {"title":"Dragon's Dogma 2","platform":"PS5","options":{"invert_x":"true","invert_y":"true"}}.
+ {"title":"Immortals of Aveum","platform":"PS5","options":{"invert_x":"false","invert_y":"true"}}]
