@@ -44,4 +44,5 @@
  {"title":"Immortals of Aveum","platform":"PS5","options":{"invert_x":"false","invert_y":"true"}},
  {"title":"Stellar Blade","platform":"PS5","options":{"invert_x":"true","invert_y":"true"}},
  {"title":"Watch Dogs","platform":"PS4","options":{"invert_x":"true","invert_y":"true"}},
- {"title":"Miasma Chronicles","platform":"PS5","options":{"invert_x":"false","invert_y":"false"}}]
+ {"title":"Miasma Chronicles","platform":"PS5","options":{"invert_x":"false","invert_y":"false"}},
+ {"title":"Fallout 4","platform":"PS4","options":{"invert_x":"false","invert_y":"true"}}]
