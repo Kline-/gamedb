@@ -47,4 +47,5 @@
  {"title":"Miasma Chronicles","platform":"PS5","options":{"invert_x":"false","invert_y":"false"}},
  {"title":"Fallout 4","platform":"PS4","options":{"invert_x":"false","invert_y":"true"}},
  {"title":"Fallout 76","platform":"PS4","options":{"invert_x":"true","invert_y":"true"}},
- {"title":"The Last Descendant","platform":"PS5","options":{"invert_x":"true","invert_y":"true"}}]
+ {"title":"The Last Descendant","platform":"PS5","options":{"invert_x":"true","invert_y":"true"}},
+ {"title":"Blood Bowl 3","platform":"PS5","options":{"invert_x":"true","invert_y":"true"}}]
