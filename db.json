@@ -49,4 +49,5 @@
  {"title":"Fallout 76","platform":"PS4","options":{"invert_x":"true","invert_y":"true"}},
  {"title":"The Last Descendant","platform":"PS5","options":{"invert_x":"true","invert_y":"true"}},
  {"title":"Blood Bowl 3","platform":"PS5","options":{"invert_x":"true","invert_y":"true"}},
- {"title":"Monster Hunter Rise","platform":"PS5","options":{"invert_x":"true","invert_y":"true"}}]
+ {"title":"Monster Hunter Rise","platform":"PS5","options":{"invert_x":"true","invert_y":"true"}},
+ {"title":"Remnant II","platform":"PS5","options":{"invert_x":"true","invert_y":"true"}}]
