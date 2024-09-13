@@ -53,4 +53,5 @@
  {"title":"Remnant II","platform":"PS5","options":{"invert_x":"true","invert_y":"true"}},
  {"title":"Tales of Arise","platform":"PS5","options":{"invert_x":"true","invert_y":"true"}},
  {"title":"LEGO Star Wars: The Skywalker Saga","platform":"PS5","options":{"invert_x":"true","invert_y":"true"}},
- {"title":"Visions of Mana","platform":"PS5","options":{"invert_x":"true","invert_y":"true"}}]
+ {"title":"Visions of Mana","platform":"PS5","options":{"invert_x":"true","invert_y":"true"}},
+ {"title":"Astro Bot","platform":"PS5","options":{"invert_x":"true","invert_y":"true"}}]
