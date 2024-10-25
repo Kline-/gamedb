@@ -56,4 +56,5 @@
  {"title":"Visions of Mana","platform":"PS5","options":{"invert_x":"true","invert_y":"true"}},
  {"title":"Astro Bot","platform":"PS5","options":{"invert_x":"true","invert_y":"true"}},
  {"title":"Chernobylite","platform":"PS5","options":{"invert_x":"true","invert_y":"true"}},
- {"title":"Space Engineers","platform":"PS5","options":{"invert_x":"false","invert_y":"true"}}]
+ {"title":"Space Engineers","platform":"PS5","options":{"invert_x":"false","invert_y":"true"}},
+ {"title":"Dragon Age: The Veilguard","platform":"PS5","options":{"invert_x":"true","invert_y":"true"}}]
