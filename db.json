@@ -59,4 +59,5 @@
  {"title":"Space Engineers","platform":"PS5","options":{"invert_x":"false","invert_y":"true"}},
  {"title":"Dragon Age: The Veilguard","platform":"PS5","options":{"invert_x":"true","invert_y":"true"}},
  {"title":"Death Stranding","platform":"PS5","options":{"invert_x":"true","invert_y":"true"}},
- {"title":"Palworld","platform":"PS5","options":{"invert_x":"true","invert_y":"true"}}]
+ {"title":"Palworld","platform":"PS5","options":{"invert_x":"true","invert_y":"true"}},
+ {"title":"Kingdom Come: Deliverance","platform":"PS4","options":{"invert_x":"false","invert_y":"true"}}]
