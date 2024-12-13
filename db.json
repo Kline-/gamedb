@@ -64,4 +64,5 @@
  {"title":"Marvel's Spider-Man","platform":"PS5","options":{"invert_x":"true","invert_y":"true"}},
  {"title":"Marvel's Spider-Man 2","platform":"PS5","options":{"invert_x":"true","invert_y":"true"}},
  {"title":"Ancestors: The Humankind Odyssey","platform":"PS4","options":{"invert_x":"true","invert_y":"true"}},
- {"title":"Legacy of Kain: Soul Reaver 1&2 Remastered","platform":"PS5","options":{"invert_x":"true","invert_y":"true"}}]
+ {"title":"Legacy of Kain: Soul Reaver 1&2 Remastered","platform":"PS5","options":{"invert_x":"true","invert_y":"true"}},
+ {"title":"Dying Light 2: Stay Human","platform":"PS5","options":{"invert_x":"false","invert_y":"true"}}]
