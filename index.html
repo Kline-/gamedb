@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GameDB Accessability Data</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    input[type="text"] {
+      margin-bottom: 10px;
+      padding: 8px;
+      width: 100%;
+      box-sizing: border-box;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+    table, th, td {
+      border: 1px solid #ccc;
+    }
+    th, td {
+      padding: 8px 12px;
+      text-align: left;
+    }
+    th {
+      cursor: pointer;
+      background-color: #f2f2f2;
+    }
+    th.sorted-asc::after {
+      content: " 🔼";
+    }
+    th.sorted-desc::after {
+      content: " 🔽";
+    }
+  </style>
+</head>
+<body>
+
+  <h1>GameDB Accessability Data</h1>
+
+  <!-- Search box to filter table data dynamically -->
+  <input type="text" id="searchBox" placeholder="Type to search..." />
+
+  <div id="tableContainer"></div>
+
+  <script>
+    const jsonFileUrl = 'https://raw.githubusercontent.com/Kline-/gamedb/refs/heads/main/db.json';
+    let originalData = [];
+    let filteredData = [];
+
+    // Fetch JSON data from the server
+    fetch(jsonFileUrl)
+      .then(response => {
+        if (!response.ok) {
+          throw new Error('Failed to load JSON file');
+        }
+        return response.json();
+      })
+      .then(jsonData => {
+        originalData = jsonData;
+        filteredData = jsonData;
+
+        // Sort by title initially
+        filteredData.sort((a, b) => {
+          const titleA = a.title.toLowerCase();
+          const titleB = b.title.toLowerCase();
+          return titleA.localeCompare(titleB);
+        });
+
+        displayTable(filteredData);
+      })
+      .catch(error => {
+        console.error('Error:', error);
+        document.getElementById('tableContainer').innerHTML = `<p>Error loading JSON file.</p>`;
+      });
+
+    // Search handler
+    document.getElementById('searchBox').addEventListener('input', (event) => {
+      const query = event.target.value.toLowerCase();
+      filteredData = originalData.filter(row => searchInRow(flattenJSON(row), query));
+      displayTable(filteredData);
+    });
+
+    // Function to recursively check if a row matches a query
+    function searchInRow(row, query) {
+      for (const key in row) {
+        if (row.hasOwnProperty(key) && String(row[key]).toLowerCase().includes(query)) {
+          return true;
+        }
+      }
+      return false;
+    }
+
+    // Function to flatten nested JSON data into a flat key-path map
+    function flattenJSON(json, prefix = '') {
+      let result = {};
+      for (const key in json) {
+        if (json.hasOwnProperty(key)) {
+          const newKey = prefix ? `${prefix}.${key}` : key;
+          if (typeof json[key] === 'object' && json[key] !== null) {
+            Object.assign(result, flattenJSON(json[key], newKey));
+          } else {
+            result[newKey] = json[key];
+          }
+        }
+      }
+      return result;
+    }
+
+    // Function to transform JSON keys into human-readable headers
+    function formatHeaderName(key) {
+      return key
+        .replace(/_/g, ' ') // Replace underscores with spaces
+        .replace(/\b(\w)/g, match => match.toUpperCase()) // Capitalize words
+        .replace(/\.(\w)/g, (_, match) => ` ${match.toUpperCase()}`); // Handle dot-based paths
+    }
+
+    // Display table logic
+    function displayTable(data) {
+      const container = document.getElementById('tableContainer');
+      container.innerHTML = '';
+
+      if (!Array.isArray(data) || data.length === 0) {
+        container.innerHTML = '<p>No data found or invalid JSON format.</p>';
+        return;
+      }
+
+      const flatData = data.map(row => flattenJSON(row));
+      const headers = Array.from(
+        new Set(flatData.flatMap(row => Object.keys(row)))
+      );
+
+      const table = document.createElement('table');
+      const thead = table.createTHead();
+      const headerRow = thead.insertRow();
+
+      const headerMapping = {}; // Map raw keys to human-readable ones
+      headers.forEach((header, index) => {
+        const th = document.createElement('th');
+        const formattedHeader = formatHeaderName(header);
+        headerMapping[formattedHeader] = header; // Map header
+        th.textContent = formattedHeader;
+        th.addEventListener('click', () => sortTable(table, index, header));
+        headerRow.appendChild(th);
+      });
+
+      const tbody = table.createTBody();
+      flatData.forEach(row => {
+        const tr = document.createElement('tr');
+        headers.forEach(header => {
+          const td = document.createElement('td');
+          td.textContent = row[header] || '';
+          tr.appendChild(td);
+        });
+        tbody.appendChild(tr);
+      });
+
+      container.appendChild(table);
+    }
+
+    let sortOrder = {};
+
+    function sortTable(table, columnIndex, header) {
+      const rows = Array.from(table.tBodies[0].rows);
+      const isAsc = sortOrder[header] === 'asc';
+      const comparator = isAsc
+        ? (a, b) => a.cells[columnIndex].textContent > b.cells[columnIndex].textContent ? 1 : -1
+        : (a, b) => a.cells[columnIndex].textContent < b.cells[columnIndex].textContent ? 1 : -1;
+
+      rows.sort(comparator);
+
+      rows.forEach(row => table.tBodies[0].appendChild(row));
+
+      sortOrder[header] = isAsc ? 'desc' : 'asc';
+
+      Array.from(table.tHead.rows[0].cells).forEach(th => th.classList.remove('sorted-asc', 'sorted-desc'));
+
+      const th = table.tHead.rows[0].cells[columnIndex];
+      th.classList.add(isAsc ? 'sorted-desc' : 'sorted-asc');
+    }
+  </script>
+
+</body>
+</html>
