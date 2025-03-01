@@ -74,4 +74,5 @@
  {"title":"Kingdom Come: Deliverance II","platform":"PS5","options":{"invert_x":"true","invert_y":"true"}},
  {"title":"Dead Island 2","platform":"PS5","options":{"invert_x":"false","invert_y":"true"}},
  {"title":"Deep Rock Galactic","platform":"PS5","options":{"invert_x":"false","invert_y":"true"}},
- {"title":"Dungeon Defenders II","platform":"PS4","options":{"invert_x":"false","invert_y":"true"}}]
+ {"title":"Dungeon Defenders II","platform":"PS4","options":{"invert_x":"false","invert_y":"true"}},
+ {"title":"Monster Hunter Wilds","platform":"PS5","options":{"invert_x":"true","invert_y":"true"}}]
