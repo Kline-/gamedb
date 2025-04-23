@@ -78,4 +78,5 @@
  {"title":"Monster Hunter Wilds","platform":"PS5","options":{"invert_x":"true","invert_y":"true"}},
  {"title":"The First Berserker: Khazan","platform":"PS5","options":{"invert_x":"true","invert_y":"true"}},
  {"title":"Xenoblade Chronicles X: Definitive Edition","platform":"Switch","options":{"invert_x":"true","invert_y":"true"}},
- {"title":"Borderlands 3","platform":"PS5","options":{"invert_x":"true","invert_y":"true"}}]
+ {"title":"Borderlands 3","platform":"PS5","options":{"invert_x":"true","invert_y":"true"}},
+ {"title":"The Elder Scrolls IV: Oblivion Remastered","platform":"PS5","options":{"invert_x":"true","invert_y":"true"}}]
