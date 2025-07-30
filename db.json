@@ -84,4 +84,5 @@
  {"title":"Doom: The Dark Ages","platform":"PS5","options":{"invert_x":"true","invert_y":"true"}},
  {"title":"Rocket League","platform":"PS4","options":{"invert_x":"true","invert_y":"true"}},
  {"title":"Fantasy Life i: The Girl Who Steals Time","platform":"PS5","options":{"invert_x":"true","invert_y":"true"}},
- {"title":"Death Stranding 2: On The Beach","platform":"PS5","options":{"invert_x":"true","invert_y":"true"}}]
+ {"title":"Death Stranding 2: On The Beach","platform":"PS5","options":{"invert_x":"true","invert_y":"true"}},
+ {"title":"Abiotic Factor","platform":"PS5","options":{"invert_x":"false","invert_y":"true"}}]
