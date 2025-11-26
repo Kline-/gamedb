@@ -89,4 +89,5 @@
  {"title":"Daemon X Machina: Titanic Scion","platform":"PS5","options":{"invert_x":"true","invert_y":"true"}},
  {"title":"Megabonk","platform":"PC","options":{"invert_x":"true","invert_y":"true"}},
  {"title":"Final Fantasy Tactics: The Ivalice Chronicles","platform":"PS5","options":{"invert_x":"true","invert_y":"true"}},
- {"title":"Where Winds Meet","platform":"PS5","options":{"invert_x":"true","invert_y":"true"}}]
+ {"title":"Where Winds Meet","platform":"PS5","options":{"invert_x":"true","invert_y":"true"}},
+ {"title":"Baldur's Gate 3","platform":"PS5","options":{"invert_x":"false","invert_y":"false"}}]
