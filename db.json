@@ -92,4 +92,5 @@
  {"title":"Where Winds Meet","platform":"PS5","options":{"invert_x":"true","invert_y":"true"}},
  {"title":"Baldur's Gate 3","platform":"PS5","options":{"invert_x":"false","invert_y":"false"}},
  {"title":"Two Point Hospital","platform":"PS4","options":{"invert_x":"true","invert_y":"true"}},
- {"title":"LEGO Horizon Adventures","platform":"PS5","options":{"invert_x":"true","invert_y":"true"}}]
+ {"title":"LEGO Horizon Adventures","platform":"PS5","options":{"invert_x":"true","invert_y":"true"}},
+ {"title":"Powerwash Simulator 2","platform":"PS5","options":{"invert_x":"false","invert_y":"true"}}]
