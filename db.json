@@ -94,4 +94,5 @@
  {"title":"Two Point Hospital","platform":"PS4","options":{"invert_x":"true","invert_y":"true"}},
  {"title":"LEGO Horizon Adventures","platform":"PS5","options":{"invert_x":"true","invert_y":"true"}},
  {"title":"Powerwash Simulator 2","platform":"PS5","options":{"invert_x":"false","invert_y":"true"}},
- {"title":"Granblue Fantasy: Relink","platform":"PS5","options":{"invert_x":"true","invert_y":"true"}}]
+ {"title":"Granblue Fantasy: Relink","platform":"PS5","options":{"invert_x":"true","invert_y":"true"}},
+ {"title":"Satisfactory","platform":"PC","options":{"invert_x":"false","invert_y":"true"}}]
