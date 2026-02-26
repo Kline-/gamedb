@@ -97,4 +97,5 @@
  {"title":"Granblue Fantasy: Relink","platform":"PS5","options":{"invert_x":"true","invert_y":"true"}},
  {"title":"Satisfactory","platform":"PC","options":{"invert_x":"false","invert_y":"true"}},
  {"title":"The Alters","platform":"PS5","options":{"invert_x":"false","invert_y":"true"}},
- {"title":"Ace Combat 7: Skies Unknown","platform":"PS4","options":{"invert_x":"false","invert_y":"true"}}]
+ {"title":"Ace Combat 7: Skies Unknown","platform":"PS4","options":{"invert_x":"false","invert_y":"true"}},
+ {"title":"Operencia: The Stolen Sun","platform":"PS4","options":{"invert_x":"false","invert_y":"true"}}]
