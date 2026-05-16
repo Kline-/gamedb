@@ -100,4 +100,5 @@
  {"title":"Ace Combat 7: Skies Unknown","platform":"PS4","options":{"invert_x":"false","invert_y":"true"}},
  {"title":"Operencia: The Stolen Sun","platform":"PS4","options":{"invert_x":"false","invert_y":"true"}},
  {"title":"Crimson Desert","platform":"PS5","options":{"invert_x":"true","invert_y":"true"}},
- {"title":"Chivalry 2","platform":"PS5","options":{"invert_x":"false","invert_y":"true"}}]
+ {"title":"Chivalry 2","platform":"PS5","options":{"invert_x":"false","invert_y":"true"}},
+ {"title":"Blades of Fire","platform":"PS5","options":{"invert_x":"true","invert_y":"true"}}]
