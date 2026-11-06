@@ -104,4 +104,5 @@
  {"title":"Blades of Fire","platform":"PS5","options":{"invert_x":"true","invert_y":"true"}},
  {"title":"Trepang2","platform":"PC","options":{"invert_x":"true","invert_y":"true"}},
  {"title":"The Blood of Dawnwalker","platform":"PS5","options":{"invert_x":"true","invert_y":"true"}},
- {"title":"Star Wars: Galactic Racer","platform":"PS5","options":{"invert_x":"false","invert_y":"true"}}]
+ {"title":"Star Wars: Galactic Racer","platform":"PS5","options":{"invert_x":"false","invert_y":"true"}},
+ {"title":"Trails in the Sky 1st Chapter","platform":"PC","options":{"invert_x":"true","invert_y":"true"}}]
